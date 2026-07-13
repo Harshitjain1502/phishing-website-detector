@@ -47,10 +47,8 @@ python train_model.py
 python app.py
 
 ### 2. Frontend Setup (React)
-
 Open a new, separate terminal window, navigate to the frontend folder, and launch the user interface:
 
-```bash
 cd frontend
 
 # Install packages
@@ -58,4 +56,4 @@ npm install
 
 # Start the dev server
 npm run dev
-
+`docs: fix headers`, and click **Commit changes**.
