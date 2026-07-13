@@ -1,3 +1,4 @@
+@'
 # 🛡️ AI-Based Phishing Website Detection System
 
 A full-stack web application that utilizes Machine Learning heuristics and live network verification to detect phishing URLs in real-time.
@@ -47,8 +48,10 @@ python train_model.py
 python app.py
 
 ### 2. Frontend Setup (React)
+
 Open a new, separate terminal window, navigate to the frontend folder, and launch the user interface:
 
+```bash
 cd frontend
 
 # Install packages
@@ -56,4 +59,3 @@ npm install
 
 # Start the dev server
 npm run dev
-`docs: fix headers`, and click **Commit changes**.
