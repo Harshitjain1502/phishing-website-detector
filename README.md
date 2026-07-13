@@ -1,4 +1,3 @@
-@'
 # 🛡️ AI-Based Phishing Website Detection System
 
 A full-stack web application that utilizes Machine Learning heuristics and live network verification to detect phishing URLs in real-time.
