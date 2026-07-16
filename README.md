@@ -4,6 +4,15 @@ A full-stack web application that utilizes Machine Learning heuristics and live 
 
 ---
 
+## 📌 Table of Contents
+* [🚀 Tech Stack](#-tech-stack)
+* [✨ Features](#-features)
+* [🛠️ Installation & Setup](#️-installation--setup)
+  * [1. Backend Setup (Flask & ML)](#1-backend-setup-flask--ml)
+  * [2. Frontend Setup (React)](#2-frontend-setup-react)
+
+---
+
 ## 🚀 Tech Stack
 
 * **Frontend:** React (Vite), Lucide Icons
@@ -39,12 +48,13 @@ venv\Scripts\activate
 # Install dependencies
 pip install pandas numpy scikit-learn tldextract python-whois Flask flask-cors
 
-# Process the live PhishTank threat data and train your machine learning model:
+# Process the live PhishTank threat data and train your machine learning model
 python prepare_data.py
 python train_model.py
 
-# Start the local Flask API server:
+# Start the local Flask API server
 python app.py
+```
 
 ### 2. Frontend Setup (React)
 
@@ -58,3 +68,4 @@ npm install
 
 # Start the dev server
 npm run dev
+```
